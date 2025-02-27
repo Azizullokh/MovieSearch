@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>film search</title>
+    <link rel="stylesheet" href="./task2.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>Movie search</h1>
+            <input type="text" id="film-input" placeholder="Enter Movie Name">
+            <button id="search-button">Search</button>
+        </div>
+        <div id="film-info" class="hidden">
+            <div class="for-img">
+                <img id="film-poster" src="" alt="">
+            </div>
+            <div class="informations">
+                <h2 id="film-title"></h2>
+                <p><strong>Release year:</strong> <span id="film-year"></span></p>
+                <p><strong>Genre:</strong> <span id="film-genre"></span></p>
+                <p><strong>Duration:</strong> <span id="film-runtime"></span></p>
+                <p><strong>Director:</strong> <span id="film-director"></span></p>
+                <p><strong>Actors:</strong> <span id="film-actors"></span></p>
+                <p><strong>IMDB Rating:</strong> <span id="film-rating"></span></p>
+                <p class="plot"><strong>Plot:</strong> <span id="film-plot"></span></p>
+                <a id="trailer-link" href="#" target="_blank">Watch the trailer</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./task2.js"></script>
+</body>
+
+</html>
